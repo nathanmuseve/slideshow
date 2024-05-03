@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Slide Show</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <!-- ......................SlideShow Container...................................... -->
+
+  <div class="slide-container">
+    <div class="mySlides" >
+      <div class="textNumber"><h2>1/4</h2></div>
+      <img src="image2.jpg" style="width:100%">
+      <div class="caption">Image Caption One</div>
+    </div>
+    <div class="mySlides" >
+      <div class="textNumber" ><h2>2/4</h2></div>
+      <img src="imge1.jpg" alt="" style="width:100%">
+      <div class="caption">Image Caption Two</div>
+    </div>
+    <div class="mySlides">
+      <div class="textNumber"><h2>3/4</h2></div>
+      <img src="image2.jpg" alt="" style="width:100%">
+      <div class="caption">Image Caption three</div>
+    </div>
+    <div class="mySlides">
+      <div class="textNumber"><h2>4/4</h2></div>
+      <img src="imge1.jpg" alt="" style="width:100%">
+      <div class="caption">Image Caption Four</div>
+    </div>
+    <!-- ......................nex/previous arrows.................................. -->
+    <a class="previous" onclick="PlusSlide(-1)">&laquo;</a>
+    <a class="next" onclick="PlusSlide(+1)">&raquo;</a>
+  </div>
+  <!-- .................SlideShow Container End...................................... -->
+
+  <!-- .................SlideShow dots...................................... -->
+  <div>
+    <span class="dots" onclick="CurrentSlides">1</span>
+    <span class="dots" onclick="CurrentSlides">2</span>
+    <span class="dots" onclick="CurrentSlides">4</span>
+    <span class="dots" onclick="CurrentSlides">4</span>
+  </div>
+  <!-- ........SlideShow Main Container END!!!!...................................... -->
+
+  <script src="index.js"></script>
+</body>
+</html>
